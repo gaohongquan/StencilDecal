@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/StencilDecals/SampleScene.unity
+    guid: ee081c602c3063d448802c373ef12df5
   m_configObjects: {}
