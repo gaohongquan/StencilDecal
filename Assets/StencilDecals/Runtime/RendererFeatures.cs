@@ -23,7 +23,7 @@ namespace Yunchang
         void OnEnable()
         {
             m_Camera = this.GetComponent<Camera>();
-            m_Camera.depthTextureMode = DepthTextureMode.Depth;
+            //m_Camera.depthTextureMode = DepthTextureMode.Depth;
 
             m_ColorTex = new RenderTexture(Screen.width, Screen.height, 0, RenderTextureFormat.ARGB32);
             m_ColorTex.Create();
