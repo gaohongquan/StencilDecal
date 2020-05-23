@@ -62,9 +62,6 @@
 				float4 vpos = float4(i.ray * depth,1);
 				float3 wpos = mul(unity_CameraToWorld, vpos).xyz;
 				float3 opos = mul(unity_WorldToObject, float4(wpos,1)).xyz;
-
-				clip(float3(0.5,0.5,0.5) - abs(opos.xyz));
-
 				float3 decalNormal = mul(UNITY_MATRIX_T_MV, viewNormal);
 				opos.xz -= opos.y * decalNormal.xz;
 				clip(float3(0.5, 0.5, 0.5) - abs(opos.xyz));

@@ -38,11 +38,12 @@ namespace Yunchang
             {
                 Shader.DisableKeyword("_SUPPORT_NORMAL");
 #if UNITY_EDITOR
-                if(!Application.isPlaying)
-                    m_Camera.depthTextureMode = DepthTextureMode.Depth;
-#endif
+                m_Camera.depthTextureMode = DepthTextureMode.Depth;
+#else
                 rendererBuffer = new RendererBuffer(m_Camera);
                 rendererBuffer.Create();
+#endif
+                
             }
         }
 
