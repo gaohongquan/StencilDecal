@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f40ffd9cb3c75d42ab643f91e78fe1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  supportNormal: 1
+  supportNormal: 0
 --- !u!81 &941689988
 AudioListener:
   m_ObjectHideFlags: 0
@@ -439,8 +439,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941689986}
-  m_LocalRotation: {x: -0.09025863, y: 0.90961516, z: -0.27869776, w: -0.29458645}
-  m_LocalPosition: {x: -0.5141038, y: 1.3762541, z: 0.36608362}
+  m_LocalRotation: {x: -0.08717231, y: 0.8995906, z: -0.21045285, w: -0.37262234}
+  m_LocalPosition: {x: 6.337243, y: 4.4360695, z: 6.3372436}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 1840268893}
   - component: {fileID: 1840268892}
   m_Layer: 0
-  m_Name: Decal (1)
+  m_Name: Decal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
