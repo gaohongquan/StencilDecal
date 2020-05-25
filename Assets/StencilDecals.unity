@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f40ffd9cb3c75d42ab643f91e78fe1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  supportNormal: 1
+  supportNormal: 0
 --- !u!81 &941689988
 AudioListener:
   m_ObjectHideFlags: 0
